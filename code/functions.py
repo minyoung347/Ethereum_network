@@ -34,7 +34,6 @@ def get_tx_edges(tx_filename, txvalue_filename, miner):
     
 
     # if you want to think tx_fee as one of the transaction, merge miner information to transaction
-
     transaction = pd.merge(transaction, miner, on="blockID", how = "left")
     transaction["tx_fee"] = transaction["gas_price"]*transaction["gas_used"]
     miner_txfee = transaction[["out", "addID", "tx_fee", "txID"]]
@@ -46,7 +45,7 @@ def get_tx_edges(tx_filename, txvalue_filename, miner):
 def give_node_deep_color(graph):
     for node in graph.nodes():
         ty = graph.nodes[node].get("type")
-        if ty == "Miner":
+        if ty == "miner":
             graph.nodes[node]["deep_color"] = "#d9534f"#10 #"r"
         elif ty == "Exchange":
             graph.nodes[node]["deep_color"] = "#5cb85c" #20 #"g"

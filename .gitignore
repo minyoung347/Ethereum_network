@@ -1,0 +1,4 @@
+preprocessed/
+
+.ipynb_checkpoints/
+.snakemake/
