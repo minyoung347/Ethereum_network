@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ethereum-network
+Version: 0.1.0
+Requires-Python: >=3.8
+Requires-Dist: ipykernel>=6.29.5
+Requires-Dist: matplotlib>=3.7.5
+Requires-Dist: networkx>=3.1
+Requires-Dist: numpy>=1.24.4
+Requires-Dist: pandas>=2.0.3
+Requires-Dist: pulp<2.8
+Requires-Dist: python-dateutil>=2.9.0.post0
+Requires-Dist: scipy>=1.10.1
+Requires-Dist: seaborn>=0.13.2
+Requires-Dist: snakemake>=7.32.4
+Requires-Dist: statsmodels>=0.14.1
+Requires-Dist: tqdm>=4.68.3

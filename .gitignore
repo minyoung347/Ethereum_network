@@ -1,4 +1,22 @@
-preprocessed/
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Packaging artifacts
+*.egg-info/
+build/
+dist/
+
+data/
+figures/
+
+code/.ipynb_checkpoints/
+
+workflow/config.yaml
+workflow/.ipynb_checkpoints/
 
 .ipynb_checkpoints/
 .snakemake/
+.venv/
+
+
