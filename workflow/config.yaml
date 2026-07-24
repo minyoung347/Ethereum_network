@@ -1,3 +1,0 @@
-raw_transaction_file: "/home/damini/Project/Ethereum/Ethereum_network/data/transaction_data_except_txfee.csv"
-label_dir: "/data01/storage_damini/Ethereum_raw/dataset"
-results_dir: "/data01/storage_damini/Ethereum_publish"
