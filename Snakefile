@@ -47,7 +47,7 @@ SYNC_METRICS = ["topk_kendall", "nonzero_kendall", "topk_rbo", "nonzero_rbo"]  #
 SYNC_TOP_K = 1000
 SYNC_RBO_P = 0.9
 
-SYNC_RANDOM_REPEATS = 5  # 일단 테스트용. 나중에 100~1000
+SYNC_RANDOM_REPEATS = 5 
 RANDOM_SYNC_N = 500
 RANDOM_SYNC_PAIR_SAMPLE = 0
 
